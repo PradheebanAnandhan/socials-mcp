@@ -77,6 +77,7 @@ TWITTER_CONSUMER_KEY=xxxxxxxxxxxxxxxxxx
 TWITTER_CONSUMER_SECRET=xxxxxxxxxxxxxxxxxx
 TWITTER_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxx
 TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxx
+```
 
 ### Discord Configuration
 
@@ -102,7 +103,7 @@ The bot exists, but it's not in your server yet.
 3.  Check the **`bot`** box.
 4.  Check the **`Administrator`** box (Permissions table).
 5.  Copy the URL -> Paste in browser -> Select Server -> **Authorize**.
-```
+
 
 ### Quick Start – Post a Tweet
 
@@ -166,7 +167,7 @@ Open an issue if you're unsure where your change fits – we're happy to help.
 
 > Want to see your face up there? Check out the next issue, pick one and open a PR! ✨
 
----
+---  
 
 ## 6 · License
 
