@@ -6,3 +6,4 @@ google-auth-httplib2
 fastapi
 uvicorn
 fastmcp
+discord.py

@@ -21,7 +21,7 @@ This repository currently supports core posting & media-handling features for **
 | ✅ | **YouTube** | Video upload, search, analytics, comments |
 | ⬜ | **Reddit** | Subreddit feed, submissions, voting |
 | ⬜ | **Telegram** | Bot messaging, media, web-hooks |
-| ⬜ | **Discord** | Bot messaging, channel & guild utilities |
+| ✅ | **Discord** | Bot messaging, channel & guild utilities, MCP Server |
 
 > Platforms not listed above are **out of scope for now** and will be revisited in future milestones.
 
