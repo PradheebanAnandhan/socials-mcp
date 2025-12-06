@@ -21,7 +21,7 @@ This repository currently supports core posting & media-handling features for **
 | ✅ | **YouTube** | Video upload, search, analytics, comments |
 | ⬜ | **Reddit** | Subreddit feed, submissions, voting |
 | ⬜ | **Telegram** | Bot messaging, media, web-hooks |
-| ✅ | **Discord** | Bot messaging, channel & guild utilities, MCP Server |
+| ✅ | **Discord** | Bot messaging, channel & guild utilities |
 
 > Platforms not listed above are **out of scope for now** and will be revisited in future milestones.
 
@@ -77,6 +77,31 @@ TWITTER_CONSUMER_KEY=xxxxxxxxxxxxxxxxxx
 TWITTER_CONSUMER_SECRET=xxxxxxxxxxxxxxxxxx
 TWITTER_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxx
 TWITTER_ACCESS_TOKEN_SECRET=xxxxxxxxxxxxxxxxxx
+
+### Discord Configuration
+
+To enable Discord functionality, you need a Bot Token:
+
+1.  Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2.  Click **New Application** and give it a name (e.g., "Socials MCP").
+3.  Go to the **Bot** tab in the sidebar.
+4.  **Critical Step**: Scroll down to "Privileged Gateway Intents" and enable **Message Content Intent**.
+5.  Click **Reset Token** to generate your token. Do not share this!
+6.  Add it to your `.env` file:
+
+```dotenv
+DISCORD_BOT_TOKEN=your_token_here_xxxxxxxxxxxx
+```
+
+### 7. Invite the Bot (Critical!)
+
+The bot exists, but it's not in your server yet.
+
+1.  Go back to the [Discord Developer Portal](https://discord.com/developers/applications).
+2.  Click on your Application -> **OAuth2** -> **URL Generator**.
+3.  Check the **`bot`** box.
+4.  Check the **`Administrator`** box (Permissions table).
+5.  Copy the URL -> Paste in browser -> Select Server -> **Authorize**.
 ```
 
 ### Quick Start – Post a Tweet
