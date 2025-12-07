@@ -2,7 +2,6 @@ import os
 import sys
 import subprocess
 import requests
-import json
 from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 
